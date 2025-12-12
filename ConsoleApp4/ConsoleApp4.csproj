@@ -46,7 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="models\ImageResponse.cs" />
+    <Compile Include="models\Request.cs" />
+    <Compile Include="models\ResponseMessage.cs" />
     <Compile Include="models\ResponseToken.cs" />
+    <Compile Include="models\WallpaperSetter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
